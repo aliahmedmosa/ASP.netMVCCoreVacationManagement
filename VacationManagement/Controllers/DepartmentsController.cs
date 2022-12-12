@@ -10,6 +10,7 @@ namespace VacationManagement.Controllers
 
         public DepartmentsController(VacationDbContext context)
         {
+
             _context = context;
         }
         public IActionResult Departments()
